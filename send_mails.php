@@ -8,7 +8,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 require 'vendor/autoload.php';
 
 
-$contacts = Array();
+$contacts = Array(
+"emailRecipiente"=>"NomeRecipiente"
+);
 
 print_r($contacts);
 
